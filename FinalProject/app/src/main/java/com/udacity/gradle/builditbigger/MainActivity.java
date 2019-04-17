@@ -7,6 +7,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.MobileAds;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        MobileAds.initialize(this, "ca-app-pub-3321828322282897~9412087176");
+
     }
 
 
@@ -39,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void tellJoke(View view) {
+    public void tellJokes(View view) {
         Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
     }
 

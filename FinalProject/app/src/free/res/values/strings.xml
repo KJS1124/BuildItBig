@@ -1,10 +1,7 @@
 <resources>
     <string name="app_name">Build it Bigger</string>
-    <string name="instructions">Press the button for a delicious joke!</string>
+    <string name="instructions">Press the button for a delicious joke! free</string>
     <string name="button_text">Tell Joke</string>
     <string name="action_settings">Settings</string>
     <string name="banner_ad_unit_id">ca-app-pub-3321828322282897/1269819371</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
